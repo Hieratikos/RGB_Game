@@ -1,19 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat+Alternates|Do+Hyeon|Roboto+Mono|Lora:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700');
 
 @font-face {
     font-family: "Cuadradex";
     src: url("fonts/Cuadradex.ttf");
-  //C:\Users\Admin\Google Drive\PortfolioProject\RGB_Game\fonts\Cuadradex.ttf
 }
 $HEATWAVE: #FF7E5F;
 $TROPICALPINK: #F5AB99;
 $LSpace: .1rem;
  /*
  font-family: 'Montserrat Alternates', sans-serif;
- font-family: 'Lato', sans-serif;
- font-family: 'Do Hyeon', sans-serif;
- font-family: 'Roboto Mono', monospace;
- font-family: 'Lora', serif;
  HEATWAVE = "#FF7E5F";
  PARADISE = "#765285";
  NIGHTFALL = "#351C4D";
@@ -21,35 +16,35 @@ $LSpace: .1rem;
  */
 html{
     background-color: $HEATWAVE;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 header{
     background-color: $HEATWAVE;
     color: #351C4D;
     text-align: center;
-    font-family: "Cuadradex";
+    font-family: "Cuadradex", sans-serif;
     letter-spacing: $LSpace;
 }
 #colorDisplay{
     font-size: 200%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 #stripe{
     background-color: #351C4D;
     height: 30px;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 h1.HierHeader {
     font-size: 4em;
     color: #351C4D;
     background-color: $HEATWAVE;
     margin: 1vh auto;
-    font-family: "Cuadradex";
+    font-family: "Cuadradex", sans-serif;
     letter-spacing: $LSpace;
 }
 h2.HierHeader {
-    font-family: 'Cuadradex';
+    font-family: 'Cuadradex', sans-serif;
     margin-top: 1vh;
     margin-bottom:  1vh;
     letter-spacing: $LSpace;
@@ -149,7 +144,7 @@ button{
     font-size: inherit;
     transition: all 0.3s;
     outline: none;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 button:hover{
     color: white;
