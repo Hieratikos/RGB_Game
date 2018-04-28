@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat+Alternates|Do+Hyeon|Roboto+Mono|Lora:400,700");
+@font-face {
+  font-family: "Technik";
+  src: url("../fonts/Amosis Technik.ttf"); }
+@font-face {
+  font-family: "Slash";
+  src: url("../fonts/Slash.ttf"); }
+@font-face {
+  font-family: "Metal";
+  src: url("../fonts/Metal.ttf"); }
+@font-face {
+  font-family: "Hexter";
+  src: url("../fonts/Hexter.ttf"); }
+@font-face {
+  font-family: "Cuadradex";
+  src: url("../fonts/Cuadradex.ttf"); }
+@font-face {
+  font-family: "Noise";
+  src: url("../fonts/Background Noise.otf"); }
+@font-face {
+  font-family: "Diagon";
+  src: url("../fonts/Diagon.otf"); }
+@font-face {
+  font-family: "Hippo";
+  src: url("../fonts/Hippo.otf"); }
+@font-face {
+  font-family: "Hexagonia";
+  src: url("../fonts/Hexagonia.ttf"); }
+@font-face {
+  font-family: "Juliette";
+  src: url("../fonts/Juliette.ttf"); }
+/*
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Do Hyeon', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Lora', serif;
+HEATWAVE = "#FF7E5F";
+PARADISE = "#765285";
+NIGHTFALL = "#351C4D";
+TROPICALPINK = "#F5AB99";
+*/
+html {
+  background-color: #FF7E5F;
+  font-family: 'Lato', sans-serif; }
+
+header {
+  background-color: #FF7E5F;
+  color: #351C4D;
+  text-align: center;
+  font-family: "Cuadradex";
+  letter-spacing: 0.1rem; }
+
+#colorDisplay {
+  font-size: 200%;
+  font-family: 'Lato', sans-serif; }
+
+#stripe {
+  background-color: #351C4D;
+  height: 30px;
+  text-align: center;
+  font-family: 'Lato', sans-serif; }
+
+h1.HierHeader {
+  font-size: 4em;
+  color: #351C4D;
+  background-color: #FF7E5F;
+  margin: 1vh auto;
+  font-family: "Cuadradex";
+  letter-spacing: 0.1rem; }
+
+h2.HierHeader {
+  font-family: 'Cuadradex';
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  letter-spacing: 0.1rem; }
+
+body {
+  margin: 0; }
+
+table.HierHeader {
+  width: 100%;
+  border: none; }
+
+table.HierHeader td.left {
+  width: 45%;
+  padding-left: 5%;
+  padding-top: 30px; }
+
+table.HierHeader td.right {
+  width: 45%;
+  padding-right: 5%;
+  padding-top: 30px; }
+
+table.HierHeader td hr.flared {
+  height: 30px;
+  border-style: solid;
+  border-color: #351C4D;
+  border-width: 3px 0 0 0;
+  border-radius: 20px;
+  overflow: visible; }
+
+table.HierHeader td hr.flared:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -33px;
+  border-style: solid;
+  border-color: #351C4D;
+  border-width: 0 0 3px 0;
+  border-radius: 20px; }
+
+table.HierHeader td.center {
+  width: 10%; }
+
+table.HierHeader td.center img.logoImg {
+  width: 5vmax; }
+
+.square {
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 15%;
+  transition: background 0.5s; }
+
+#squareContainer {
+  max-width: 600px;
+  margin: 20px auto; }
+
+.mainContent h1 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding: 20px 0; }
+
+span {
+  color: white; }
+
+/*#stripe{*/
+/*background-color: #351C4D;*/
+/*height: 30px;*/
+/*text-align: center;*/
+/*}*/
+#message {
+  color: #F5AB99;
+  display: inline-block;
+  width: 20%; }
+
+.selected {
+  color: white;
+  background-color: #F5AB99; }
+
+/*#colorDisplay{*/
+/*font-size: 200%;*/
+/*font-family: 'Montserrat Alternates', sans-serif;*/
+/*}*/
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: #F5AB99;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+  outline: none;
+  font-family: 'Lato', sans-serif; }
+
+button:hover {
+  color: white;
+  background-color: #F5AB99; }
+
+/*# sourceMappingURL=styles.css.map */
