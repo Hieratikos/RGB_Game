@@ -1,34 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Montserrat+Alternates|Do+Hyeon|Roboto+Mono|Lora:400,700");
 @font-face {
-  font-family: "Technik";
-  src: url("../fonts/Amosis Technik.ttf"); }
-@font-face {
-  font-family: "Slash";
-  src: url("../fonts/Slash.ttf"); }
-@font-face {
-  font-family: "Metal";
-  src: url("../fonts/Metal.ttf"); }
-@font-face {
-  font-family: "Hexter";
-  src: url("../fonts/Hexter.ttf"); }
-@font-face {
   font-family: "Cuadradex";
-  src: url("../fonts/Cuadradex.ttf"); }
-@font-face {
-  font-family: "Noise";
-  src: url("../fonts/Background Noise.otf"); }
-@font-face {
-  font-family: "Diagon";
-  src: url("../fonts/Diagon.otf"); }
-@font-face {
-  font-family: "Hippo";
-  src: url("../fonts/Hippo.otf"); }
-@font-face {
-  font-family: "Hexagonia";
-  src: url("../fonts/Hexagonia.ttf"); }
-@font-face {
-  font-family: "Juliette";
-  src: url("../fonts/Juliette.ttf"); }
+  src: url("fonts/Cuadradex.ttf"); }
 /*
 font-family: 'Montserrat Alternates', sans-serif;
 font-family: 'Lato', sans-serif;
