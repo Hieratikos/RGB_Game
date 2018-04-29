@@ -18,10 +18,12 @@ $SUNSET: #FEB47B;
 $TROPICALPINK: #F5AB99;
 $LSpace: .1rem;
 $embase: 62.5%;
+$fontBody: 'Montserrat Alternates', sans-serif;
+$fontHeadings: "Cuadradex", sans-serif;
 
 html{
     background-color: $HEATWAVE;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fontBody;
     font-size: $embase;
 }
 body{
@@ -31,20 +33,20 @@ body{
 #tempHeader{
     color: $NIGHTFALL;
     text-align: center;
-    font-family: "Cuadradex", sans-serif;
+    font-family: $fontHeadings;
     letter-spacing: $LSpace;
     font-size: 1.3em;
     margin-top: .5em;
 }
 #colorDisplay{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fontBody;
     font-size: 2.5em;
 }
 #stripe{
     background-color: $NIGHTFALL;
     height: 30px;
     text-align: center;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fontBody;
 }
 #tempPageTitle{
     font-size: 3.0em;
@@ -136,7 +138,7 @@ button{
     font-size: inherit;
     transition: all 0.3s;
     outline: none;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: $fontBody;
 }
 button:hover{
     color: white;

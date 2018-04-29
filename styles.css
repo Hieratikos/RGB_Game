@@ -11,7 +11,7 @@ TROPICALPINK = "#F5AB99";
   src: url("fonts/Cuadradex.ttf"); }
 html {
   background-color: #FF7E5F;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 62.5%; }
 
 body {
@@ -27,14 +27,14 @@ body {
   margin-top: .5em; }
 
 #colorDisplay {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 2.5em; }
 
 #stripe {
   background-color: #351C4D;
   height: 30px;
   text-align: center;
-  font-family: 'Montserrat Alternates', sans-serif; }
+  font-family: "Montserrat Alternates", sans-serif; }
 
 #tempPageTitle {
   font-size: 3.0em; }
@@ -126,7 +126,7 @@ button {
   font-size: inherit;
   transition: all 0.3s;
   outline: none;
-  font-family: 'Montserrat Alternates', sans-serif; }
+  font-family: "Montserrat Alternates", sans-serif; }
 
 button:hover {
   color: white;
