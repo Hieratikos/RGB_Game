@@ -1,7 +1,7 @@
 /*
 Error: Undefined variable: "$fontHeadings".
-        on line 10 of templateProjectPageHeader.scss
-        from line 2 of globalVariables.scss
+        on line 10 of _templateProjectPageHeader.scss
+        from line 2 of variables.scss
 
 5:   font-family: "Cuadradex";
 6:   src: url("fonts/Cuadradex.ttf");
@@ -16,8 +16,8 @@ Error: Undefined variable: "$fontHeadings".
 15: $fontBody: 'Montserrat Alternates', sans-serif;
 
 Backtrace:
-templateProjectPageHeader.scss:10
-globalVariables.scss:2
+_templateProjectPageHeader.scss:10
+variables.scss:2
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
