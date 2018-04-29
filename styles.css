@@ -1,7 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700");
-@font-face {
-  font-family: "Cuadradex";
-  src: url("fonts/Cuadradex.ttf"); }
 /*
 font-family: 'Montserrat Alternates', sans-serif;
 HEATWAVE = "#FF7E5F";
@@ -9,20 +5,30 @@ PARADISE = "#765285";
 NIGHTFALL = "#351C4D";
 TROPICALPINK = "#F5AB99";
 */
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700");
+@font-face {
+  font-family: "Cuadradex";
+  src: url("fonts/Cuadradex.ttf"); }
 html {
   background-color: #FF7E5F;
-  font-family: 'Montserrat Alternates', sans-serif; }
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 62.5%; }
 
-header {
-  background-color: #FF7E5F;
+body {
+  font-size: 1.4em;
+  margin: 0; }
+
+#tempHeader {
   color: #351C4D;
   text-align: center;
   font-family: "Cuadradex", sans-serif;
-  letter-spacing: 0.1rem; }
+  letter-spacing: 0.1rem;
+  font-size: 1.3em;
+  margin-top: .5em; }
 
 #colorDisplay {
-  font-size: 200%;
-  font-family: 'Montserrat Alternates', sans-serif; }
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5em; }
 
 #stripe {
   background-color: #351C4D;
@@ -30,38 +36,28 @@ header {
   text-align: center;
   font-family: 'Montserrat Alternates', sans-serif; }
 
-h1.HierHeader {
-  font-size: 4em;
-  color: #351C4D;
-  background-color: #FF7E5F;
-  margin: 1vh auto;
-  font-family: "Cuadradex", sans-serif;
-  letter-spacing: 0.1rem; }
+#tempPageTitle {
+  font-size: 3.0em; }
 
-h2.HierHeader {
-  font-family: 'Cuadradex', sans-serif;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
-  letter-spacing: 0.1rem; }
+#tempAuthor {
+  font-size: 2.0em;
+  margin-top: .5em; }
 
-body {
-  margin: 0; }
-
-table.HierHeader {
+#tempLogoTable {
   width: 100%;
   border: none; }
 
-table.HierHeader td.left {
+#tempLogoTableLeft {
   width: 45%;
   padding-left: 5%;
   padding-top: 30px; }
 
-table.HierHeader td.right {
+#tempLogoTableRight {
   width: 45%;
   padding-right: 5%;
   padding-top: 30px; }
 
-table.HierHeader td hr.flared {
+hr.flared {
   height: 30px;
   border-style: solid;
   border-color: #351C4D;
@@ -69,7 +65,7 @@ table.HierHeader td hr.flared {
   border-radius: 20px;
   overflow: visible; }
 
-table.HierHeader td hr.flared:before {
+hr.flared:before {
   display: block;
   content: "";
   height: 30px;
@@ -79,11 +75,12 @@ table.HierHeader td hr.flared:before {
   border-width: 0 0 3px 0;
   border-radius: 20px; }
 
-table.HierHeader td.center {
+#tempLogoTableCenter {
   width: 10%; }
 
-table.HierHeader td.center img.logoImg {
-  width: 5vmax; }
+#logoImg {
+  width: 4vmax;
+  height: auto; }
 
 .square {
   width: 30%;
@@ -109,11 +106,6 @@ table.HierHeader td.center img.logoImg {
 span {
   color: white; }
 
-/*#stripe{*/
-/*background-color: #351C4D;*/
-/*height: 30px;*/
-/*text-align: center;*/
-/*}*/
 #message {
   color: #F5AB99;
   display: inline-block;
@@ -123,10 +115,6 @@ span {
   color: white;
   background-color: #F5AB99; }
 
-/*#colorDisplay{*/
-/*font-size: 200%;*/
-/*font-family: 'Montserrat Alternates', sans-serif;*/
-/*}*/
 button {
   border: none;
   background: none;
