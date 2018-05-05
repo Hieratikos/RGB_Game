@@ -1,0 +1,1 @@
+An RGB Color Picker game to test the user's knowledge of RGB values. Classically hand-tooled vanilla JavaScript.
